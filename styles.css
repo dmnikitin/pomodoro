@@ -1,0 +1,134 @@
+body {
+background: url('./index.jpg') no-repeat ;
+     background-size:  auto 100% ;
+        background-position: center center;
+ 
+  height: 1000px;
+  color: white;
+  font-family: 'Julius Sans One', sans-serif;
+ 
+}
+
+#pomodoro {
+  
+  
+  position: relative;
+  margin: 0 auto;
+top: 300px;
+  width: 500px;
+  height: 400px;
+  text-align: center;
+  transition: background-color 1000ms linear;
+  
+
+}
+
+
+
+
+
+#circularLoader {
+  position: absolute;
+
+  width: 490px;
+  z-index: 0;
+left:0px;
+
+height: 250px;
+border: 5px solid white;
+
+}
+
+
+
+#bottom-box {
+  height: 100px;
+  position: relative;
+  width: 100%;
+  bottom: 0px;  
+  text-align:left;
+
+}
+
+#bottom-box img {
+  padding-left: 10px;
+  padding-top: 10px;
+  height: 30px;
+}
+
+#time-box {
+
+  width: 100%;
+  height: 50px;
+  padding-top: 90px;
+  font-size: 42px;
+  position:relative;
+  
+}
+
+
+#settings {
+  width: 100%;
+  height: 100px;
+  position: relative;
+  z-index: 10;
+  
+}
+
+
+.sidenav {
+  position: absolute;
+    height: 0;
+    width: 100%;
+    
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: white;
+    color: black;
+    overflow: hidden;
+    transition: 1s;
+    
+    text-align:center;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: black;
+    display: block;
+    transition: 0.3s;
+
+}
+
+.sidenav a:hover{
+    color: red;
+}
+
+.sidenav h1 {
+  padding-top:20px;
+  padding-bottom:10px;
+  font-size: 35px;
+}
+
+.fa {
+  font-size: 30px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+#message {
+  display: none;
+}
+
+
+
+@media (min-width: 1230px) {
+      body {
+        background: url('./index.jpg') no-repeat ;
+      background-size:  cover ;
+        
+ 
+}
+}

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1">
+    <title>Pomodoro</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Arsenal'>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Julius+Sans+One">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <div id="pomodoro">
+        <div id="message"> work cycle </div>
+        <div id="mySidenav" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn">&times;</a>
+            <div id="currentPomoTime">Current PomoTime: <h1>5:00</h1>
+            </div>
+            <a href="#" id="morePomo">+ 1 min </a>
+            <a href="#" id="lessPomo">- 1 min </a>
+            <div id="currentRestTime"> Current RestTime: <h1>2:00</h1>
+            </div>
+            <a href="#" id="moreRest">+ 1 min </a>
+            <a href="#" id="lessRest">- 1 min</a>
+        </div>
+        <canvas id="circularLoader" ></canvas> 
+            <div id="time-box"> </div>
+            <div id="settings"> <span id="play" class="fa fa-play" aria-hidden="true"></span><span id="settings-button" class="fa fa-cog" aria-hidden="true"></span><span id="pause" class="fa fa-pause" aria-hidden="true"></span></div>
+            <div id="bottom-box"> </div>
+        </div>
+        <audio src="http://audiosoundclips.com/wp-content/uploads/2015/10/Referee-Whistle.mp3" type="audio/mp3" id="myAudio"> ok</audio>
+        <script type="text/javascript" src="index.js"></script>
+        <script src="https://rawgithub.com/darkskyapp/skycons/master/skycons.js"></script>
+</body>
+
+</html>
